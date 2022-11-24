@@ -1,0 +1,11 @@
+.text-primary {
+  color: var(--primary-color);
+}
+
+.text-white {
+  color: white;
+}
+
+.bg-gray {
+  background-color: var(--gray-10);
+}

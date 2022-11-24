@@ -1,0 +1,27 @@
+.vacancies {
+  background-image: url("../../images/teamVacancies.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white;
+  padding: 200px 0;
+}
+
+.vacancies .section-title {
+  margin-bottom: 70px;
+  color: white;
+  font-size: 56px;
+}
+
+.vacancies .section-text {
+  color: white;
+}
+
+@media (max-width: 576px) {
+  .vacancies {
+    padding: 100px 0;
+  }
+  .vacancies .section-title {
+    font-size: 36px;
+    margin-bottom: 30px;
+  }
+}

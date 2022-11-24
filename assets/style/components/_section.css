@@ -1,0 +1,51 @@
+.section {
+  margin-top: 100px;
+}
+
+.section-title {
+  font-weight: 700;
+  font-size: 40px;
+  color: var(--dark-blue);
+}
+
+.section-subtitle {
+  font-size: 26px;
+  color: var(--blue);
+  margin-bottom: 10px;
+}
+
+.section-text {
+  font-size: 18px;
+  color: var(--gray);
+  line-height: 1.5;
+}
+
+@media (max-width: 1400px) {
+  .section {
+    margin-top: 80px;
+  }
+  .section-title {
+    font-size: 26px;
+  }
+  .section-subtitle {
+    font-size: 20px;
+  }
+  .section-text {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 576px) {
+  .section {
+    margin-top: 60px;
+  }
+  .section-title {
+    font-size: 22px;
+  }
+  .section-subtitle {
+    font-size: 14px;
+  }
+  .section-text {
+    font-size: 12px;
+  }
+}

@@ -1,0 +1,24 @@
+.main {
+  background-image: url("../../images/servicesBG.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.main-content {
+  padding: 100px 0 120px;
+  width: 60%;
+}
+
+.main h1 {
+  margin-bottom: 15px;
+}
+
+.main .btn {
+  margin-top: 45px;
+}
+
+@media (max-width: 576px) {
+  .main-content {
+    width: 100%;
+  }
+}

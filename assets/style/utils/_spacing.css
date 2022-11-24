@@ -1,0 +1,19 @@
+.mb-24 {
+  margin-bottom: 24px;
+}
+
+.mr-40 {
+  margin-right: 40px;
+}
+
+.mx-auto {
+  margin-right: auto;
+  margin-left: auto;
+}
+
+@media (max-width: 992px) {
+  .lg-mx-none {
+    margin-right: 0;
+    margin-left: 0;
+  }
+}

@@ -1,0 +1,23 @@
+.fade-left {
+  opacity: 0;
+  transform: translateX(-20%);
+}
+
+.fade-right {
+  opacity: 0;
+  transform: translateX(20%);
+}
+
+.fade-top {
+  opacity: 0;
+  transform: translateY(-40%);
+}
+
+.fade-bottom {
+  opacity: 0;
+  transform: translateY(40%);
+}
+
+.animate {
+  transition: all 0.3s linear;
+}

@@ -1,0 +1,22 @@
+.main {
+  background-image: url("../../images/careerBg.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.main__content {
+  padding: 100px 0 150px;
+  width: 50%;
+}
+
+@media (max-width: 992px) {
+  .main__content {
+    width: 80%;
+  }
+}
+
+@media (max-width: 576px) {
+  .main__content {
+    width: 100%;
+  }
+}

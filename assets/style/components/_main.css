@@ -1,0 +1,40 @@
+.main {
+  background-size: cover;
+  background-repeat: no-repeat;
+  overflow: hidden;
+}
+
+.main-title {
+  font-size: 50px;
+  color: white;
+  margin-bottom: 35px;
+}
+
+.main-subtitle {
+  font-size: 26px;
+  color: #cdcfdf;
+}
+
+.main-text {
+  font-size: 20px;
+  color: #dddde2;
+}
+
+.main-content {
+  transition: all 0.2s linear;
+}
+
+@media (max-width: 1400px) {
+  .main-title {
+    font-size: 40px;
+  }
+  .main-text {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 576px) {
+  .main-title {
+    font-size: 32px;
+  }
+}

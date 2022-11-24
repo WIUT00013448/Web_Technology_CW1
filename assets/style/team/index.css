@@ -1,0 +1,7 @@
+@import url("_main.css");
+@import url("_teamMembers.css");
+@import url("_vacancies.css");
+
+.footer {
+  margin-top: 0;
+}
